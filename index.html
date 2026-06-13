@@ -2,7 +2,7 @@
  <head> 
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
-  <title>চাঁদা দে!: মজার গেম Make by Hasib Hossen</title> 
+  <title>চাঁদা দে!: মজার গেম Made by Nabil Reza</title> 
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&amp;display=swap" rel="stylesheet"> 
   <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Hind Siliguri', sans-serif; user-select: none; -webkit-tap-highlight-color: transparent; touch-action: none; }
@@ -93,7 +93,7 @@
      🇧🇩
     </div> 
     <div class="welcome-title">
-     "চাঁদাবাজকে আজি
+     "চাঁদাবাজকে আজই
      <br>রুখে দিন"
     </div> 
     <button class="welcome-btn" onclick="startGameFlow()">খেলা শুরু করুন</button> 
@@ -553,7 +553,7 @@
         }
 
         function shareGame() {
-            const t = `ত্রাস রানার গেমে ${money} টাকা তুলেছি!`;
+            const t = `আজকে গেমে ${money} টাকা চাঁদা তুলেছি!`;
             if(navigator.share) navigator.share({text:t, url:window.location.href});
             else { navigator.clipboard.writeText(t); alert('কপি হয়েছে!'); }
         }
